@@ -1,0 +1,23 @@
+@import '../../styles/main.scss';
+
+.Application {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.Content {
+  flex: 1 0 auto;
+  width: 100%;
+  align-self: center;
+  position: relative ;
+
+  section {
+    display: flex ;
+    position: absolute ;
+    //  overflow: hidden;
+    overflow: auto;
+    width: 100% ;
+    height: 100% ;
+  }
+}

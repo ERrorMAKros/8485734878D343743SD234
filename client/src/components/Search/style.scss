@@ -1,0 +1,36 @@
+@import "../../styles/variables";
+
+.Search {
+  display: flex ;
+  flex-direction: column ;
+  background-color: $color-blue ;
+  padding: 0 ;
+  width: 100% ;
+  height: 100% ;
+}
+.Keywords {
+  padding: .5em ;
+  width: 100% ;
+  background-color: $color-blue-dark ;
+}
+.Results {
+  display: flex ;
+  background-color: $color-blue-light ;
+  overflow: auto ;
+  height: 100%;
+  width: 100% ;
+  padding: 1em ;
+}
+.ProgressBar {
+  .ant-progress-text {
+    color: white ;
+    display: none ;
+  }
+  .ant-progress-inner {
+    border-radius: 0 ;
+  }
+  .ant-progress-outer {
+    padding: 0 ! important ;
+    margin: 0 ! important ;
+  }
+}

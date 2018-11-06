@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'OpenSansCondensedB';
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/opensanscond_bold.ttf" ) format('truetype') ;
+}
+
+.openSansCondensedB {
+  display: inline-block;
+  font-family: OpenSansCondensedB ;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'OpenSansCondensedR';
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/opensanscond_regular.ttf" ) format('truetype') ;
+}
+
+.openSansCondensedR {
+  display: inline-block;
+  font-family: OpenSansCondensedR ;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

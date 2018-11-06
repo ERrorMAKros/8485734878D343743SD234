@@ -1,0 +1,53 @@
+@import "../../styles/variables";
+
+.Login {
+  display: flex ;
+  flex-direction: row ;
+  background-color: $color-primary ;
+  padding: .5em ;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 100% ;
+  height: 100% ;
+}
+.Form {
+  list-style-type: none ;
+  background-color: $color-primary-dark ;
+  color: $color-white ;
+  padding: .5em ;
+  margin: 0 ;
+  width: 35% ;
+
+  overflow: hidden ;
+
+  & > li {
+    padding-bottom: .5em ;
+    &:last-child {
+      padding-bottom: 0 ;
+    }
+  }
+}
+.Username {
+
+}
+.Password {
+
+}
+.Footer {
+  & > button {
+    margin-right: 1em ;
+    font-size: 75% ;
+    font-weight: bolder ;
+    color: $color-white ;
+    border: none ! important;
+  }
+}
+
+.ButtonSignIn {
+  background-color: $color-green ;
+}
+.ButtonReTry {
+  background-color: $color-red ;
+}

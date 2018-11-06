@@ -1,0 +1,54 @@
+@import '../fonts/opensanscond';
+
+// animation
+$animation-delay: 0.5s ;
+
+// fonts
+$font-default: Roboto, Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+//  $font-default: OpenSansCondensedR ;
+$font-size-small: 16px ;
+$font-size-medium: 18px ;
+$font-size-big: 20px ;
+
+// border
+$border-radius: 4px ;
+
+// colors
+$color-offset: 25% ;
+$color-alpha-level: .3 ;
+
+$color-black: black;
+$color-white: white;
+
+$color-blue: #0088d4;
+$color-blue-dark: darken( $color-blue, $color-offset );
+$color-blue-light: lighten( $color-blue, $color-offset );
+
+$color-yellow: yellow ;
+
+$color-red: red ;
+$color-green: #00b850;
+$background-header: #fafafa;
+$header-color-text: #a5a5a5;
+$menu-background-color: $color-blue ;
+
+$color-gray: #878787;
+$color-gray-light: lighten( $color-gray, $color-offset );
+$color-gray-dark: darken( $color-gray, $color-offset );
+
+$color-primary: $color-blue ;
+$color-primary-dark: darken( $color-primary, $color-offset ) ;
+$color-primary-light: lighten( $color-primary, $color-offset ) ;
+
+$color-secondary: $color-green ;
+$color-success: $color-blue ;
+$color-danger: $color-red ;
+$color-warning: $color-yellow ;
+$color-info: $color-blue ;
+
+
+
+$width-container: 1140px;
+$margin-top-container: 100px;
+
+$shadow: 0 .5em .5em rgba( $color-black, .1);
